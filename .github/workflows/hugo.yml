@@ -44,6 +44,7 @@ jobs:
         with:
           submodules: recursive
       - name: 🔨 Build with Hugo
+        working-directory: joluj
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
