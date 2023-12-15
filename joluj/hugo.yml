@@ -13,12 +13,12 @@ params:
         customText:
 
     sidebar:
-        emoji: 🤓
+#        emoji: 🤓
         subtitle: Johannes Jablonski
         avatar:
             enabled: true
-            local: false
-            src: https://avatars.githubusercontent.com/u/41482626
+            local: true
+            src: profile.jpg
 
 menu:
     main: [ ]
